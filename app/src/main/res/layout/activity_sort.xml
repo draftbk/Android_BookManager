@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_time"
+            android:text="时  间"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_search"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent" />
+
+
+        <Button
+            android:id="@+id/btn_price"
+            android:text="价  格"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_search"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/listview_book"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="8dp"
+        android:divider="#f0f0f0">
+
+    </ListView>
+
+</LinearLayout>

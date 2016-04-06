@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">图书管理者</string>
+    <string name="action_search">查找</string>
+    <string name="action_sort">排序</string>
+    <string name="title_activity_search">按关键字查找图书</string>
+
+    <drawable name="search_normal">#ce9d0a</drawable>
+    <drawable name="search_pressed">#b4750b</drawable>
+</resources>
